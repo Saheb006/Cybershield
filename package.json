@@ -15,9 +15,7 @@
     "copy-extension-files": "cpx \"public/manifest.json\" dist/ && cpx \"public/icon*.png\" dist/"
   },
   "devDependencies": {
-    "canvas": "^2.11.2",
     "@eslint/js": "^9.32.0",
-    "fs-extra": "^11.2.0",
     "@tailwindcss/typography": "^0.5.16",
     "@types/chrome": "^0.0.260",
     "@types/node": "^22.16.5",
@@ -30,6 +28,7 @@
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
+    "fs-extra": "^11.2.0",
     "globals": "^15.15.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17",
@@ -88,5 +87,11 @@
     "tailwindcss-animate": "^1.0.7",
     "vaul": "^0.9.9",
     "zod": "^3.25.76"
+  },
+  "optionalDependencies": {
+    "canvas": "^2.11.2"
+  },
+  "engines": {
+    "node": "20.x"
   }
 }
